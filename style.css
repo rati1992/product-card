@@ -1,0 +1,131 @@
+@import 'colors.css';
+@import 'font.css';
+
+body {
+    background-color: var(--pink);
+    min-height: 100vh;
+    display: grid;
+    font-family: var(--roboto);
+}
+
+.card {
+    width:401px;
+    background-color: white;
+    box-sizing: border-box;
+    border:1px solid var(--grey);
+    box-shadow: 0px 8px 24px
+    rgba(0,0,0,0.88);
+    border-radius: 8px;
+    margin: auto;
+    overflow: hidden;
+}
+.card-body {
+    padding:0 40px 40px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+.price,h1,p {
+    color:var(--dark);
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.color-title {
+    color:var(--darklight);
+    margin-bottom: 16px;
+}
+
+.btn-color {
+    width:40px;
+    height: 40px;
+    border: 4px solid white;
+    background-color: red;
+    border-radius: 100%;
+    display: block;
+}
+
+.btn-container {
+    display: flex;
+    gap:0 16px;
+}
+
+.btn-color.red {
+    background-color:var(--red);
+}
+
+.btn-color.blue {
+    background-color:var(--blue);
+}
+
+.btn-color.dark {
+    background-color:var(--dark);
+}
+
+.btn-color.active {
+    border-color: black;
+}
+
+.colors-container {
+    margin-bottom: 32px;
+}
+
+.actions-buttons-container button {
+   border-radius: 8px; 
+   height: 55px;
+   font-size: 24px;
+   color: var(--dark);
+   display: block;
+   width: 100%;
+   cursor: pointer;
+
+}
+
+.actions-buttons-container button:first-child {
+    margin-bottom: 16px;
+}
+
+.add-btn {
+    background-color: var(--orange);
+    border: none;
+}
+
+.buy-btn {
+    background-color:1px solid #E7E6EB;
+    border-color: var(--lightblue);
+}
+
+.card a {
+    color:var(--lightblue);
+    font-size:16px;
+    line-height: 24px;
+}
+
+.actions-buttons-container {
+    margin-bottom: 32px;
+}
+
+
+
+
